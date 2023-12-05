@@ -15,6 +15,7 @@ kotlin {
         
         desktopMain.dependencies {
             implementation(compose.desktop.currentOs)
+            implementation(libs.openrndr.math)
         }
         commonMain.dependencies {
             implementation(compose.runtime)
